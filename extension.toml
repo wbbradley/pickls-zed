@@ -1,0 +1,7 @@
+id = "pickls-zed"
+name = "Pickls"
+version = "0.0.1"
+schema_version = 1
+authors = ["Will Bradley <williambbradley@gmail.com>"]
+description = "Leverage Pickls to handle linting and formatting in Zed"
+repository = "https://github.com/wbbradley/pickls-zed"

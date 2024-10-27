@@ -1,0 +1,11 @@
+[package]
+name = "pickls"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+log = "0.4.22"
+zed_extension_api = "0.1.0"
