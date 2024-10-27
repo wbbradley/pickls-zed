@@ -1,7 +1,37 @@
-id = "pickls-zed"
+id = "pickls"
 name = "Pickls"
-version = "0.0.1"
+version = "0.0.3"
 schema_version = 1
 authors = ["Will Bradley <williambbradley@gmail.com>"]
 description = "Leverage Pickls to handle linting and formatting in Zed"
 repository = "https://github.com/wbbradley/pickls-zed"
+
+[language_servers.pickls]
+name = "pickls"
+languages = [
+    "C",
+    "C#",
+    "C++",
+    "CSS",
+    "Elixir",
+    "Go",
+    "HTML",
+    "JSON",
+    "JSONC",
+    "Java",
+    "JavaScript",
+    "Kotlin",
+    "Markdown",
+    "Objective-C",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Rust",
+    "SCSS",
+    "SQL",
+    "Scala",
+    "Swift",
+    "TOML",
+    "TypeScript",
+    "YAML",
+]
