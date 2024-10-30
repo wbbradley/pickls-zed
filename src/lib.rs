@@ -1,6 +1,6 @@
 #[macro_use]
 extern crate zed_extension_api;
-use zed_extension_api::{Command, Extension, LanguageServerId, Result, Worktree};
+use zed_extension_api::Extension;
 
 struct PicklsExtension {}
 

@@ -1,7 +1,14 @@
 [package]
 name = "pickls"
-version = "0.0.5"
+version = "0.0.6"
 edition = "2021"
+license = "MIT"
+keywords = ["LSP", "Zed", "extension", "ide", "diagnostics"]
+categories = ["development-tools", "text-editors"]
+description = "Pickls Zed Extension"
+readme = "README.md"
+homepage = "https://github.com/wbbradley/pickls-zed"
+repository = "https://github.com/wbbradley/pickls-zed"
 
 [lib]
 crate-type = ["cdylib"]
